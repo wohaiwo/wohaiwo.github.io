@@ -1,0 +1,22 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: 
+
+# Setup
+title:               '前端手艺人'
+tagline:             '一个前端菜鸟的自嘲'
+description:         '关于我 <a href="http://github.com/wohaiwo" target="_blank">我</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:                 
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              
+  url:               
+  email:             
+
+# Custom vars
+version:             1.0.0
