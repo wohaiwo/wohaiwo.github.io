@@ -24,15 +24,16 @@
         {% endif %}
       {% endif %}
     {% endfor %}
-
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+    <!-- site.github.repo 会调用_config.yml文件 -->
+    <a href="{{site." class="sidebar-nav-item"></a>
+    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Demo</a>
+    <a class="sidebar-nav-item" href="{{ site.github.repo }}">Github </a>
   </nav>
-
+  <!--
   <div class="sidebar-item">
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
   </div>
+-->
 </div>
