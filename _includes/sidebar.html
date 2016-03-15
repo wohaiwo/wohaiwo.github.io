@@ -20,20 +20,14 @@
     {% for node in pages_list %}
       {% if node.title != null %}
         {% if node.layout == "page" %}
+          <!-- 实时设置侧边栏的active -->
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
     <!-- site.github.repo 会调用_config.yml文件 -->
-    <a href="{{site." class="sidebar-nav-item"></a>
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Demo</a>
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">Github </a>
+    <a class="sidebar-nav-item" href="http://wohaiwo.github.io/zhome">Demo</a>
+    <a class="sidebar-nav-item" href="{{ site.github }}">Github </a>
   </nav>
-  <!--
-  <div class="sidebar-item">
-    <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-    </p>
-  </div>
--->
+
 </div>

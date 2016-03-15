@@ -1,21 +1,27 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
+
+# 输出URL样式 /2009/04/06/zh/index.html
 permalink:           pretty
-relative_permalinks: 
+relatiFve_permalinks: 
 
 # Setup
 title:               '前端手艺人'
 tagline:             '一个前端菜鸟的自嘲'
 description:         '关于我 <a href="http://github.com/wohaiwo" target="_blank">我</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+
+# 链接 site.baseurl 固定链接  post.url 内部链接
 url:                 
-baseurl:             ''
-paginate:            5
+baseurl:             
+# 分页设置信息
+paginate:            3			
+paginate_path:  	 'blog/page:4'
 
 # About/contact
 author:
   name:              
   url:               
   email:             
-
+github: 			'https://github.com/wohaiwo'
 
