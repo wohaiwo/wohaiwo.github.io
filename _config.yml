@@ -13,7 +13,7 @@ description:         '关于我 <a href="http://github.com/wohaiwo" target="_bla
 
 # 链接 site.baseurl 固定链接  post.url 内部链接
 url:                 
-baseurl:             
+baseurl:             ''
 # 分页设置信息
 paginate:            3			
 paginate_path:  	 'blog/page:4'
