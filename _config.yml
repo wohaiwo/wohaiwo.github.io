@@ -12,7 +12,7 @@ tagline:             '一个前端菜鸟的自嘲'
 description:         '关于我 <a href="http://github.com/wohaiwo" target="_blank">我</a>'
 # 链接 site.baseurl 固定链接  post.url 内部链接
 url:                 
-baseurl:             '/wohaiwo.github.io'
+baseurl:             ''
 # 分页设置信息
 # 每页文章数量
 paginate:            3			
