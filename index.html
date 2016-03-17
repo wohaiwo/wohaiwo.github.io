@@ -7,33 +7,33 @@ title: Home
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ site.baseurl }}/{{ post.url }}">
-        {{ post.title }}
+      <a href="{{ post.url }}">
+        {{ post.title }} 
       </a>
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
+    <div class="post-content">
     {{ post.content }}
-    <a href="{{ site.baseurl }}/{{ post.url }}" title="阅读更多文章">阅读更多...</a>
+    </div>
+      <a class="readMore" href="{{ post.url }}" title="阅读更多文章">阅读全文</a>
   </div>
   {% endfor %}
 </div>
 
+
+{% if paginator.total_pages > 1 %}
 <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{ paginator.next_page }}">上一页</a>
+  {% if paginator.previous_page %}
+    <a class="pagination-item" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; 上一页</a>
   {% else %}
-    <span class="pagination-item older">上一页</span>
+    <span class="pagination-item">&laquo; 上一</span>
   {% endif %}
 
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="">下一页</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{ paginator.previous_page }}">下一页</a>
-    {% endif %}
+  {% if paginator.next_page %}
+    <a class="pagination-item" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页 &raquo;</a>
   {% else %}
-    <span class="pagination-item newer">下一页</span>
+    <span class="pagination-item">下一页 &raquo;</span>
   {% endif %}
 </div>
-
+{% endif %}
