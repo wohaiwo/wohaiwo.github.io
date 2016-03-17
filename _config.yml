@@ -25,6 +25,5 @@ author:
 github:             'https://github.com/wohaiwo'
 
 #分页插件
-gems:                [jekyll-paginate]
-highlighter:         rouge
+
 
