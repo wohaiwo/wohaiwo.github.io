@@ -1,3 +1,4 @@
+
 <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
      styles, `#sidebar-checkbox` for behavior. -->
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
@@ -11,15 +12,9 @@
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 
-    {% assign pages_list = site.pages | sort:"url" %}
-    {% for node in pages_list %}
-      {% if node.title != null %}
-        {% if node.layout == "page" %}
-          <!-- 实时设置侧边栏的active -->
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
+    
+    <a class="sidebar-nav-item" href="/about">About</a>
+
     <!-- site.github.repo 会调用_config.yml文件 -->
     <a class="sidebar-nav-item" href="http://wohaiwo.github.io/zhome">Demo</a>
     <a class="sidebar-nav-item" href="{{ site.github }}">Github </a>
