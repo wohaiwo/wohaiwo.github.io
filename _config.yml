@@ -1,31 +1,22 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-
-# 输出URL样式 /2009/04/06/zh/index.html
-Permalinks:      		pertty
-
+permalink:           pretty
+relative_permalinks: true
 
 # Setup
-title:  				前端手艺人
-tagline: 				'一个前端菜鸟的自嘲'
-description:  			'关于我 <a href="https://github.com/wohaiwo" target="_blank">我</a>'
-# 链接 site.baseurl 固定链接  post.url 内部链接
-url:                  	https://wohaiwo.github.io
-baseurl:              	''
-# 分页设置信息
-# 每页文章数量
-paginate:            	4		
-paginate_path:  	 
+title:               Lanyon
+tagline:             'A Jekyll theme'
+description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:                 http://lanyon.getpoole.com
+baseurl:             ''
+paginate:            5
 
 # About/contact
 author:
-  name:              
-  url:               
-  email: 			zhome621@gmail.com
-github:  			https://github.com/wohaiwo
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
 
-#分页插件
-
-
-
+# Custom vars
+version:             1.0.0
