@@ -25,17 +25,8 @@ author:
 github:  'https://github.com/wohaiwo'
 
 #分页插件
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 gems:  [jekyll-paginate]
 highlighter: rouge
 markdown: kramdown
 
-=======
-gems:               [jekyll-paginate]
-highlighter:        rouge
->>>>>>> 746b845c438f3c6eac267868ed4c827e0bae0700
-=======
-gems:               [jekyll-paginate]
-highlighter:        rouge
->>>>>>> origin/master
