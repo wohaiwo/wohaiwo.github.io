@@ -373,8 +373,8 @@ tbody tr:nth-child(odd) th {
 }
 .post .readMore {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 10px;
+  bottom: 10px;
   display: inline-block;
   padding: 6px 12px;
   line-height: 1.4;
