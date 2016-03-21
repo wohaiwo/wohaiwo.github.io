@@ -344,6 +344,7 @@ tbody tr:nth-child(odd) th {
   padding: 12px 6px;
   margin-bottom: 5em;
   overflow: hidden;
+  box-shadow: 0 5px 10px rbga(0, 0, 0, 0.5);
 }
 
 /* Blog post or page title */
