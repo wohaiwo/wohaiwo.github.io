@@ -7,7 +7,7 @@ permalink:           pretty
 # Setup
 title:               前端手艺人
 tagline:             '一个前端菜鸟的自嘲'
-description:         '关于我 <a href="https://github.com/wohaiwo" target="_blank">我</a>'
+description:         '作者还没有想好怎么介绍自己, 先空着吧.....'
 url:                 
 baseurl:             ''
 paginate:            5
@@ -17,5 +17,3 @@ author:
   name:             
   url:               https://wohaiwo.github.io
   email:             zhome621@gmail.com
-  github:            https://github.com/wohaiwo
-
